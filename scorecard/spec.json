@@ -1,0 +1,42 @@
+{
+ "source": "ONLYOFFICE 10.0, 2026-10-28",
+ "set": "private",
+ "note": "The specification: what ONLYOFFICE did on a private set of ten real documents in a 2026-10-28 test, as percentages. Fixed; never re-run. The counts stay with the private set.",
+ "rows": {
+  "same_word": [
+   98,
+   100
+  ],
+  "within_line": [
+   100,
+   100
+  ],
+  "page_count": [
+   90,
+   100
+  ],
+  "flow": {
+   "sog": [
+    88,
+    100
+   ],
+   "sop": [
+    89,
+    100
+   ]
+  },
+  "save": "all kept",
+  "pixels": [
+   94,
+   100
+  ],
+  "keys": [
+   99,
+   100
+  ],
+  "paraids": "all",
+  "edits": "yes",
+  "pdf_seconds": "about 50 s",
+  "embed": "yes (its own API)"
+ }
+}

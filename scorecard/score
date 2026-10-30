@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# score <editor> <set-folder> [options]: the scorecard in one command. See score.py for the options.
+set -euo pipefail
+cd "$(dirname "$0")/.."
+export PYTHONUTF8=1
+if command -v cygpath >/dev/null 2>&1; then export SCORE_BASH="$(cygpath -w "$(command -v bash)")"; fi
+if command -v py >/dev/null 2>&1; then exec py -3.13 -I scorecard/score.py "$@"; fi
+exec python3 -I scorecard/score.py "$@"

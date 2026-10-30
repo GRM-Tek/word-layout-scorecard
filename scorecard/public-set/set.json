@@ -1,0 +1,55 @@
+{
+  "name": "public",
+  "documents": [
+    "handbook-calibri",
+    "rules-cambria",
+    "guide-arial",
+    "form-aptos",
+    "book-calibri",
+    "book-cambria",
+    "book-arial",
+    "book-aptos",
+    "protocols-arial",
+    "notices-calibri",
+    "register-aptos"
+  ],
+  "flow": [
+    "handbook-calibri",
+    "rules-cambria"
+  ],
+  "edit": {
+    "file": "handbook-calibri",
+    "cases": {
+      "type": {
+        "in": "both spare reports spoke",
+        "mark": "EDITMARKONE"
+      },
+      "split": {
+        "in": "The examination of its",
+        "mark": "SPLITMARK"
+      },
+      "delete_text": {
+        "in": "may be cleaned over"
+      },
+      "copy_paste": {
+        "copy": "Between Low Holm and Kestrel",
+        "before": "Each quarter glues these"
+      },
+      "move": {
+        "cut": "The next clean leaflet",
+        "before": "When these public water-resistant"
+      },
+      "delete_paragraph": {
+        "in": "Each path tries next"
+      },
+      "new_paragraph": {
+        "after": "booked the same obstacle.",
+        "mark": "NEWPARAMARK"
+      },
+      "join": {
+        "first": "The stake of the",
+        "second": "Rarely the first damaged"
+      }
+    }
+  }
+}
